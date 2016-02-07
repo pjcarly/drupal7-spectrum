@@ -1,0 +1,13 @@
+name = Spectrum
+description = Spectrum
+package = Entity
+version = 7.x-0.1
+core = 7.x
+
+files[] = spectrum.module
+files[] = spectrum.install
+
+dependencies[] = entity
+dependencies[] = field
+
+configure = admin/config/development/spectrum
